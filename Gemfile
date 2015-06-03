@@ -5,6 +5,11 @@ gem 'devise', '~> 3.4.0'
 
 gem 'bootstrap-sass', '~> 3.2.0.2'
 
+gem 'acts_as_votable', '~> 0.10.0'
+
+gem 'simple_form', '~> 3.0.2'
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
