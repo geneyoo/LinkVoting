@@ -83,7 +83,7 @@ class LinksController < ApplicationController
 
     def authorized_user
       @link = current_user.links.find_by(id: params[:id])
-      redirect_to links_path, notice: "Not authorized to edit this link" if @link.nil?
+      redirect_to links_path, notice: "You are not allowed to edit this" if @link.nil?
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
