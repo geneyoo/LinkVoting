@@ -15,4 +15,3 @@ Devise 3.2.0 (for account making)
 
 Bootstrap-Sass 3.2.0.2 (for layout/structure)
 
-Basically copied all JS from a tutorial 
